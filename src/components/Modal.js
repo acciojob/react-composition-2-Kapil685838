@@ -4,8 +4,8 @@ const Modal = (prop) => {
     const { showProp, setShowProp } = prop;
     return (
         <>
-            {showProp && <div className="model-overlay">
-                <button className='model-close' onClick={() => {
+            {showProp && <div className="modal-overlay">
+                <button className='modal-close' onClick={() => {
                     setShowProp(false);
                 }}>Close</button>
                 <p>This is the content of the modal.</p>
