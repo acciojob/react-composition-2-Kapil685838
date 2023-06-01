@@ -3,14 +3,16 @@ import './../styles/App.css';
 import Modal from "./Modal";
 
 const App = () => {
-  const [showProp, setShowProp] = useState(false);
+  const [show, setShow] = useState(false);
+
+  function onClose() {
+    setShow(false);
+  }
 
   return (
     <div className="main">
-      <button onClick={() => {
-        setShowProp(true);
-      }}>Show Modal</button>
-      <Modal showProp={showProp} setShowProp={setShowProp} />
+      <button onClick={() => {setShow(true)}}>Show Modal</button>
+      <Modal showProp={show} setShowProp={onClose} />
     </div>
   )
 }
