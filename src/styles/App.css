@@ -15,7 +15,7 @@ button {
     cursor: pointer;
 }
 
-.model-overlay {
+.modal-overlay {
     border: 2px solid grey;
     margin-top: 1rem;
     padding: 1rem;
@@ -23,6 +23,6 @@ button {
     background-color: rgb(137, 220, 253);
 }
 
-.model-overlay p {
+.modal-overlay p {
     margin: 1rem 0;
 }
