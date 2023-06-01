@@ -1,1 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    padding: 20px;
+}
+button {
+    background-color: rgb(175, 5, 5);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.model-overlay {
+    border: 2px solid grey;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgb(137, 220, 253);
+}
+
+.model-overlay p {
+    margin: 1rem 0;
+}
